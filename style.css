@@ -19,7 +19,8 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #1f1e1e;
+    color: white; /* Texte en blanc pour garantir un bon contraste */
 }
 
 /* hero background image */

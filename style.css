@@ -21,6 +21,10 @@
 }
 
 /* display background dark color on navbar scroll */
+.navbarScroll {
+    background-color: #1f1e1e;
+  } 
+
 .navbarScroll.navbarDark {
     background-color: #1f1e1e;
     color: white;
@@ -32,7 +36,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: #00ffff !important;
+    color: #00ff88 !important;
 }
 
 .navbar-brand {
@@ -77,7 +81,11 @@
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
+.skillsText.card,
+.portfolioContent.card {
+  background-color: #ffffff; /* Fond blanc pour contraste élevé */
+  color: #000000;
+}
 /* skills */
 .skillsText.card {
     height: 350px;
@@ -104,7 +112,8 @@
 .card-title {
     text-align: center;
     color: #000000;
-    font-weight: bold;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .card:hover .skillsIcon {
@@ -122,7 +131,8 @@
 }
 
 .card-text {
-    color: #000000;
+    color: #333333;
+    font-size: 1rem;
     text-align: center;
 }
 

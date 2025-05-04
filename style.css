@@ -58,13 +58,19 @@
 .hero_title {
     font-size: 4.5rem;
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Amélioration contraste */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .hero_desc {
     font-size: 2rem;
     color: #ffffff;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
 }
 
 .hero-text {
